@@ -47,7 +47,7 @@ struct ContentView: View {
                         ForEach(partyOptions, id: \.self) {
                             if $0 > 1 {
                                 Text("\($0) people")
-                            }
+                           }
                         }
                     }
                 }

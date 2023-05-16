@@ -11,13 +11,3 @@ struct CustomStruct {
         title = new
     }
 }
-
-var foo = CustomStruct(title: "heheh")
-print(foo.title)
-
-print("\n- - - - - - - - - - - - - - - - - - - - -\n")
-
-let bar = foo.updateTitle(new: "boohoo")
-print(bar.title)
-
-

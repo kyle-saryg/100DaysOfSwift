@@ -1,0 +1,8 @@
+iExpense:
+	* Deleting from a list
+	* Conformance to 'Identifiable'
+		* Removes the 'id: ' section from ForEach
+	* Multiple views
+	* Saving data to disc
+		* User's info stays when app is closed and reopened
+

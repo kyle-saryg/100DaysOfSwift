@@ -19,11 +19,14 @@ struct ContentView: View {
         NavigationView {
             List {
                 ForEach(activities.habits) { habit in
-                    //NavigationLink to display discription
-                    HStack {
-                        Text("\(habit.title)")
-                        Spacer()
-                        Text("\(habit.occurences)")
+                    NavigationLink {
+                        DescriptionView(habit: habit)
+                    } label: {
+                        HStack {
+                            Text("\(habit.title)")
+                            Spacer()
+                            Text("\(habit.occurences)")
+                        }
                     }
                 }
             }

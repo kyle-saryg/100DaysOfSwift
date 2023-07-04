@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B1515F602A4D48FB00264D26 /* AddHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1515F5F2A4D48FB00264D26 /* AddHabit.swift */; };
+		B167D22C2A54B94F003ECA91 /* DescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B167D22B2A54B94F003ECA91 /* DescriptionView.swift */; };
 		B1B2A2392A4BF62E00841FF3 /* HabitTracker__Day_47_challenge_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2A2382A4BF62E00841FF3 /* HabitTracker__Day_47_challenge_App.swift */; };
 		B1B2A23B2A4BF62E00841FF3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B2A23A2A4BF62E00841FF3 /* ContentView.swift */; };
 		B1B2A23D2A4BF62F00841FF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B2A23C2A4BF62F00841FF3 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		B1515F5F2A4D48FB00264D26 /* AddHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddHabit.swift; sourceTree = "<group>"; };
+		B167D22B2A54B94F003ECA91 /* DescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionView.swift; sourceTree = "<group>"; };
 		B1B2A2352A4BF62E00841FF3 /* HabitTracker (Day 47 challenge).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HabitTracker (Day 47 challenge).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1B2A2382A4BF62E00841FF3 /* HabitTracker__Day_47_challenge_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitTracker__Day_47_challenge_App.swift; sourceTree = "<group>"; };
 		B1B2A23A2A4BF62E00841FF3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 		B1B2A22C2A4BF62E00841FF3 = {
 			isa = PBXGroup;
 			children = (
+				B167D22B2A54B94F003ECA91 /* DescriptionView.swift */,
 				B1B2A2372A4BF62E00841FF3 /* HabitTracker (Day 47 challenge) */,
 				B1B2A2362A4BF62E00841FF3 /* Products */,
 			);
@@ -149,6 +152,7 @@
 				B1B2A23B2A4BF62E00841FF3 /* ContentView.swift in Sources */,
 				B1515F602A4D48FB00264D26 /* AddHabit.swift in Sources */,
 				B1B2A2392A4BF62E00841FF3 /* HabitTracker__Day_47_challenge_App.swift in Sources */,
+				B167D22C2A54B94F003ECA91 /* DescriptionView.swift in Sources */,
 				B1B2A2492A4C1A7900841FF3 /* Activities.swift in Sources */,
 				B1B2A2472A4C1A2200841FF3 /* Habit.swift in Sources */,
 			);

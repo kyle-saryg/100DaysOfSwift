@@ -37,7 +37,10 @@ class Order: ObservableObject, Codable {
     // Cannot attach @Published property wrapper to computed properties
     // Used to enable/disable checkout button within 'AddressView.swift'
     var hasValidAddress: Bool {
+        
         if name.isEmpty || streetAddress.isEmpty || city.isEmpty || zip.isEmpty {
+            return false
+        } else if name.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || streetAddress.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || city.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty || zip.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
             return false
         }
         
@@ -69,6 +72,21 @@ class Order: ObservableObject, Codable {
     // Creates an empty order (all properties have defaults or are computed)
     init() { }
     
+    required init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        
+        type = try container.decode(Int.self, forKey: .type)
+        quantity = try container.decode(Int.self, forKey: .quantity)
+        
+        extraFrosting = try container.decode(Bool.self, forKey: .extraFrosting)
+        addSprinkles = try container.decode(Bool.self, forKey: .addSpringkles)
+        
+        name = try container.decode(String.self, forKey: .name)
+        city = try container.decode(String.self, forKey: .city)
+        streetAddress = try container.decode(String.self, forKey: .streetAddress)
+        zip = try container.decode(String.self, forKey: .zip)
+    }
+    
     func encode(to encoder: Encoder) throws {
         var container = encoder.container(keyedBy: CodingKeys.self)
         
@@ -83,20 +101,5 @@ class Order: ObservableObject, Codable {
         try container.encode(streetAddress, forKey: .streetAddress)
         try container.encode(zip, forKey: .zip
         )
-    }
-    
-    required init(from decoder: Decoder) throws {
-        let container = try decoder.container(keyedBy: CodingKeys.self)
-        
-        type = try container.decode(Int.self, forKey: .type)
-        quantity = try container.decode(Int.self, forKey: .quantity)
-        
-        extraFrosting = try container.decode(Bool.self, forKey: .extraFrosting)
-        addSprinkles = try container.decode(Bool.self, forKey: .addSpringkles)
-        
-        name = try container.decode(String.self, forKey: .name)
-        city = try container.decode(String.self, forKey: .city)
-        streetAddress = try container.decode(String.self, forKey: .streetAddress)
-        zip = try container.decode(String.self, forKey: .zip)
     }
 }

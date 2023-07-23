@@ -65,7 +65,7 @@ struct CheckoutView: View {
             // 'reqres' simply send back the same json data
             // for confirmation, checking if data returned matches data sent
             let decodedOrder = try JSONDecoder().decode(Order.self, from: data)
-            confirmationMessage = "Your order for \(decodedOrder.quantity)x \(Order.types[decodedOrder.type].lowercased()) cupcakes is on its way!"
+            confirmationMessage = "Your order for \(decodedOrder.orderDetails.quantity)x \(Order.types[decodedOrder.orderDetails.type].lowercased()) cupcakes is on its way!"
             showingConfirmation = true
             
         } catch {

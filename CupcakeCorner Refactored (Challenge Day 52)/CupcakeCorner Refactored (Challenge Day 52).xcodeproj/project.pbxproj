@@ -7,32 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1301DE32A58C27D00D64B21 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1301DE22A58C27D00D64B21 /* CupcakeCornerApp.swift */; };
-		B1301DE52A58C27D00D64B21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1301DE42A58C27D00D64B21 /* ContentView.swift */; };
-		B1301DE72A58C27E00D64B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1301DE62A58C27E00D64B21 /* Assets.xcassets */; };
-		B1301DEA2A58C27E00D64B21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1301DE92A58C27E00D64B21 /* Preview Assets.xcassets */; };
-		B1D935692A67D590003E0F79 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D935682A67D590003E0F79 /* Order.swift */; };
-		B1D9356B2A67DAA4003E0F79 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9356A2A67DAA4003E0F79 /* AddressView.swift */; };
-		B1D9356D2A67DF27003E0F79 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D9356C2A67DF27003E0F79 /* CheckoutView.swift */; };
-		B1E44E942A6DD09C0084DCD4 /* CupcakeCornerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44E932A6DD09C0084DCD4 /* CupcakeCornerApp.swift */; };
-		B1E44E962A6DD0BA0084DCD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44E952A6DD0BA0084DCD4 /* ContentView.swift */; };
+		B1E44E7A2A6DCF5E0084DCD4 /* CupcakeCorner_Refactored__Challenge_Day_52_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44E792A6DCF5E0084DCD4 /* CupcakeCorner_Refactored__Challenge_Day_52_App.swift */; };
+		B1E44E7E2A6DCF5F0084DCD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E44E7D2A6DCF5F0084DCD4 /* Assets.xcassets */; };
+		B1E44E812A6DCF5F0084DCD4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1E44E802A6DCF5F0084DCD4 /* Preview Assets.xcassets */; };
+		B1E44E882A6DCFAC0084DCD4 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44E872A6DCFAC0084DCD4 /* Order.swift */; };
+		B1E44E8C2A6DCFB60084DCD4 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44E892A6DCFB60084DCD4 /* AddressView.swift */; };
+		B1E44E8D2A6DCFB60084DCD4 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44E8A2A6DCFB60084DCD4 /* CheckoutView.swift */; };
+		B1E44E922A6DD0790084DCD4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44E912A6DD0790084DCD4 /* ContentView.swift */; };
+		B1E44E982A6DD19C0084DCD4 /* OrderDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1E44E972A6DD19C0084DCD4 /* OrderDetails.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B1301DDF2A58C27D00D64B21 /* CupcakeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CupcakeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1301DE22A58C27D00D64B21 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
-		B1301DE42A58C27D00D64B21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B1301DE62A58C27E00D64B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B1301DE92A58C27E00D64B21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		B1D935682A67D590003E0F79 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
-		B1D9356A2A67DAA4003E0F79 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
-		B1D9356C2A67DF27003E0F79 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
-		B1E44E932A6DD09C0084DCD4 /* CupcakeCornerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CupcakeCornerApp.swift; sourceTree = "<group>"; };
-		B1E44E952A6DD0BA0084DCD4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1E44E762A6DCF5E0084DCD4 /* CupcakeCorner Refactored (Challenge Day 52).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CupcakeCorner Refactored (Challenge Day 52).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1E44E792A6DCF5E0084DCD4 /* CupcakeCorner_Refactored__Challenge_Day_52_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CupcakeCorner_Refactored__Challenge_Day_52_App.swift; sourceTree = "<group>"; };
+		B1E44E7D2A6DCF5F0084DCD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1E44E802A6DCF5F0084DCD4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1E44E872A6DCFAC0084DCD4 /* Order.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Order.swift; path = ../../CupcakeCorner/CupcakeCorner/Order.swift; sourceTree = "<group>"; };
+		B1E44E892A6DCFB60084DCD4 /* AddressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressView.swift; path = ../../CupcakeCorner/CupcakeCorner/AddressView.swift; sourceTree = "<group>"; };
+		B1E44E8A2A6DCFB60084DCD4 /* CheckoutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckoutView.swift; path = ../../CupcakeCorner/CupcakeCorner/CheckoutView.swift; sourceTree = "<group>"; };
+		B1E44E912A6DD0790084DCD4 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B1E44E972A6DD19C0084DCD4 /* OrderDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetails.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B1301DDC2A58C27D00D64B21 /* Frameworks */ = {
+		B1E44E732A6DCF5E0084DCD4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,42 +40,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B1301DD62A58C27D00D64B21 = {
+		B1E44E6D2A6DCF5E0084DCD4 = {
 			isa = PBXGroup;
 			children = (
-				B1301DE12A58C27D00D64B21 /* CupcakeCorner */,
-				B1301DE02A58C27D00D64B21 /* Products */,
+				B1E44E782A6DCF5E0084DCD4 /* CupcakeCorner Refactored (Challenge Day 52) */,
+				B1E44E772A6DCF5E0084DCD4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B1301DE02A58C27D00D64B21 /* Products */ = {
+		B1E44E772A6DCF5E0084DCD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B1301DDF2A58C27D00D64B21 /* CupcakeCorner.app */,
+				B1E44E762A6DCF5E0084DCD4 /* CupcakeCorner Refactored (Challenge Day 52).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B1301DE12A58C27D00D64B21 /* CupcakeCorner */ = {
+		B1E44E782A6DCF5E0084DCD4 /* CupcakeCorner Refactored (Challenge Day 52) */ = {
 			isa = PBXGroup;
 			children = (
-				B1E44E952A6DD0BA0084DCD4 /* ContentView.swift */,
-				B1E44E932A6DD09C0084DCD4 /* CupcakeCornerApp.swift */,
-				B1D9356A2A67DAA4003E0F79 /* AddressView.swift */,
-				B1D9356C2A67DF27003E0F79 /* CheckoutView.swift */,
-				B1301DE22A58C27D00D64B21 /* CupcakeCornerApp.swift */,
-				B1301DE42A58C27D00D64B21 /* ContentView.swift */,
-				B1D935682A67D590003E0F79 /* Order.swift */,
-				B1301DE62A58C27E00D64B21 /* Assets.xcassets */,
-				B1301DE82A58C27E00D64B21 /* Preview Content */,
+				B1E44E912A6DD0790084DCD4 /* ContentView.swift */,
+				B1E44E892A6DCFB60084DCD4 /* AddressView.swift */,
+				B1E44E8A2A6DCFB60084DCD4 /* CheckoutView.swift */,
+				B1E44E792A6DCF5E0084DCD4 /* CupcakeCorner_Refactored__Challenge_Day_52_App.swift */,
+				B1E44E872A6DCFAC0084DCD4 /* Order.swift */,
+				B1E44E972A6DD19C0084DCD4 /* OrderDetails.swift */,
+				B1E44E7D2A6DCF5F0084DCD4 /* Assets.xcassets */,
+				B1E44E7F2A6DCF5F0084DCD4 /* Preview Content */,
 			);
-			path = CupcakeCorner;
+			path = "CupcakeCorner Refactored (Challenge Day 52)";
 			sourceTree = "<group>";
 		};
-		B1301DE82A58C27E00D64B21 /* Preview Content */ = {
+		B1E44E7F2A6DCF5F0084DCD4 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				B1301DE92A58C27E00D64B21 /* Preview Assets.xcassets */,
+				B1E44E802A6DCF5F0084DCD4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -85,39 +82,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B1301DDE2A58C27D00D64B21 /* CupcakeCorner */ = {
+		B1E44E752A6DCF5E0084DCD4 /* CupcakeCorner Refactored (Challenge Day 52) */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1301DED2A58C27E00D64B21 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */;
+			buildConfigurationList = B1E44E842A6DCF5F0084DCD4 /* Build configuration list for PBXNativeTarget "CupcakeCorner Refactored (Challenge Day 52)" */;
 			buildPhases = (
-				B1301DDB2A58C27D00D64B21 /* Sources */,
-				B1301DDC2A58C27D00D64B21 /* Frameworks */,
-				B1301DDD2A58C27D00D64B21 /* Resources */,
+				B1E44E722A6DCF5E0084DCD4 /* Sources */,
+				B1E44E732A6DCF5E0084DCD4 /* Frameworks */,
+				B1E44E742A6DCF5E0084DCD4 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CupcakeCorner;
-			productName = CupcakeCorner;
-			productReference = B1301DDF2A58C27D00D64B21 /* CupcakeCorner.app */;
+			name = "CupcakeCorner Refactored (Challenge Day 52)";
+			productName = "CupcakeCorner Refactored (Challenge Day 52)";
+			productReference = B1E44E762A6DCF5E0084DCD4 /* CupcakeCorner Refactored (Challenge Day 52).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B1301DD72A58C27D00D64B21 /* Project object */ = {
+		B1E44E6E2A6DCF5E0084DCD4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					B1301DDE2A58C27D00D64B21 = {
+					B1E44E752A6DCF5E0084DCD4 = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = B1301DDA2A58C27D00D64B21 /* Build configuration list for PBXProject "CupcakeCorner" */;
+			buildConfigurationList = B1E44E712A6DCF5E0084DCD4 /* Build configuration list for PBXProject "CupcakeCorner Refactored (Challenge Day 52)" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -125,47 +122,46 @@
 				en,
 				Base,
 			);
-			mainGroup = B1301DD62A58C27D00D64B21;
-			productRefGroup = B1301DE02A58C27D00D64B21 /* Products */;
+			mainGroup = B1E44E6D2A6DCF5E0084DCD4;
+			productRefGroup = B1E44E772A6DCF5E0084DCD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1301DDE2A58C27D00D64B21 /* CupcakeCorner */,
+				B1E44E752A6DCF5E0084DCD4 /* CupcakeCorner Refactored (Challenge Day 52) */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B1301DDD2A58C27D00D64B21 /* Resources */ = {
+		B1E44E742A6DCF5E0084DCD4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1301DEA2A58C27E00D64B21 /* Preview Assets.xcassets in Resources */,
-				B1301DE72A58C27E00D64B21 /* Assets.xcassets in Resources */,
+				B1E44E812A6DCF5F0084DCD4 /* Preview Assets.xcassets in Resources */,
+				B1E44E7E2A6DCF5F0084DCD4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B1301DDB2A58C27D00D64B21 /* Sources */ = {
+		B1E44E722A6DCF5E0084DCD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1D935692A67D590003E0F79 /* Order.swift in Sources */,
-				B1E44E942A6DD09C0084DCD4 /* CupcakeCornerApp.swift in Sources */,
-				B1E44E962A6DD0BA0084DCD4 /* ContentView.swift in Sources */,
-				B1D9356B2A67DAA4003E0F79 /* AddressView.swift in Sources */,
-				B1D9356D2A67DF27003E0F79 /* CheckoutView.swift in Sources */,
-				B1301DE52A58C27D00D64B21 /* ContentView.swift in Sources */,
-				B1301DE32A58C27D00D64B21 /* CupcakeCornerApp.swift in Sources */,
+				B1E44E882A6DCFAC0084DCD4 /* Order.swift in Sources */,
+				B1E44E982A6DD19C0084DCD4 /* OrderDetails.swift in Sources */,
+				B1E44E922A6DD0790084DCD4 /* ContentView.swift in Sources */,
+				B1E44E8C2A6DCFB60084DCD4 /* AddressView.swift in Sources */,
+				B1E44E8D2A6DCFB60084DCD4 /* CheckoutView.swift in Sources */,
+				B1E44E7A2A6DCF5E0084DCD4 /* CupcakeCorner_Refactored__Challenge_Day_52_App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B1301DEB2A58C27E00D64B21 /* Debug */ = {
+		B1E44E822A6DCF5F0084DCD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -225,7 +221,7 @@
 			};
 			name = Debug;
 		};
-		B1301DEC2A58C27E00D64B21 /* Release */ = {
+		B1E44E832A6DCF5F0084DCD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -279,14 +275,14 @@
 			};
 			name = Release;
 		};
-		B1301DEE2A58C27E00D64B21 /* Debug */ = {
+		B1E44E852A6DCF5F0084DCD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner Refactored (Challenge Day 52)/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -299,7 +295,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Sarygin.Kyle.CupcakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sarygin.Kyle.CupcakeCorner-Refactored--Challenge-Day-52-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -307,14 +303,14 @@
 			};
 			name = Debug;
 		};
-		B1301DEF2A58C27E00D64B21 /* Release */ = {
+		B1E44E862A6DCF5F0084DCD4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CupcakeCorner Refactored (Challenge Day 52)/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -327,7 +323,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = Sarygin.Kyle.CupcakeCorner;
+				PRODUCT_BUNDLE_IDENTIFIER = "Sarygin.Kyle.CupcakeCorner-Refactored--Challenge-Day-52-";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,25 +334,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B1301DDA2A58C27D00D64B21 /* Build configuration list for PBXProject "CupcakeCorner" */ = {
+		B1E44E712A6DCF5E0084DCD4 /* Build configuration list for PBXProject "CupcakeCorner Refactored (Challenge Day 52)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1301DEB2A58C27E00D64B21 /* Debug */,
-				B1301DEC2A58C27E00D64B21 /* Release */,
+				B1E44E822A6DCF5F0084DCD4 /* Debug */,
+				B1E44E832A6DCF5F0084DCD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1301DED2A58C27E00D64B21 /* Build configuration list for PBXNativeTarget "CupcakeCorner" */ = {
+		B1E44E842A6DCF5F0084DCD4 /* Build configuration list for PBXNativeTarget "CupcakeCorner Refactored (Challenge Day 52)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B1301DEE2A58C27E00D64B21 /* Debug */,
-				B1301DEF2A58C27E00D64B21 /* Release */,
+				B1E44E852A6DCF5F0084DCD4 /* Debug */,
+				B1E44E862A6DCF5F0084DCD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B1301DD72A58C27D00D64B21 /* Project object */;
+	rootObject = B1E44E6E2A6DCF5E0084DCD4 /* Project object */;
 }

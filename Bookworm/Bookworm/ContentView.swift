@@ -8,13 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @AppStorage("notes") private var notes = ""
+    // Allows us to access environment managed objects (Write and Save to/from CoreData)
+    @Environment(\.managedObjectContext) var moc
+    // Allows to Read from CoreData
+    @FetchRequest(sortDescriptors: []) var students: FetchedResults<Student>
     
     var body: some View {
-        NavigationView {
-            TextEditor(text: $notes)
-                .navigationTitle("Notes")
-                .padding()
+        VStack {
+            Text("hello")
         }
     }
 }

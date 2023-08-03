@@ -44,6 +44,7 @@ struct DetailView: View {
         .navigationTitle(book.title ?? "Unkown Book")
         .navigationBarTitleDisplayMode(.inline)
         .alert("Delete Book?", isPresented: $showingDeleteAlert) {
+            // .destructive and .cancel only effect look of buttons
             Button("Delete", role: .destructive, action: deleteBook)
             Button("Cancel", role: .cancel) { /* Automatically dismisses alert */ }
         } message: {
@@ -68,7 +69,7 @@ struct DetailView: View {
 
 
 /*
-    Very difficult to generate a preview from CoreData
+    Difficult to generate a preview from CoreData
     Recommended to remove preview
 */
 

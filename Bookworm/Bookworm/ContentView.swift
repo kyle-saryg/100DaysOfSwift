@@ -35,8 +35,12 @@ struct ContentView: View {
                                 Text(book.author ?? "Unkown Author")
                                     .foregroundColor(.secondary)
                             }
+                            
+                            Text(getDate(book: book))
+                                .frame(maxWidth: .infinity, alignment: .trailing)
                         }
                     }
+                    .listRowBackground(book.rating == 1 ? Color.red : nil)
                 }
                 .onDelete(perform: deleteBooks)
             }
@@ -56,6 +60,16 @@ struct ContentView: View {
             .sheet(isPresented: $showingAddScreen) {
                 AddBookView()
             }
+        }
+    }
+    
+    func getDate(book: Book) -> String {
+        if let date = book.date {
+            let formatter = DateFormatter()
+            formatter.dateStyle = .short
+            return formatter.string(from: date)
+        } else {
+            return("N/A")
         }
     }
     

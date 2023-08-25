@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B13CD7222A995DBC000B9AD3 /* UserDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13CD7212A995DBC000B9AD3 /* UserDetailView.swift */; };
 		B13D7EB22A9591DD003993AC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D7EB12A9591DD003993AC /* User.swift */; };
 		B1F356882A8D720F00985D63 /* Day_60_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F356872A8D720F00985D63 /* Day_60_ChallengeApp.swift */; };
 		B1F3568A2A8D720F00985D63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F356892A8D720F00985D63 /* ContentView.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B13CD7212A995DBC000B9AD3 /* UserDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailView.swift; sourceTree = "<group>"; };
 		B13D7EB12A9591DD003993AC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		B1F356842A8D720F00985D63 /* Day 60 Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 60 Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F356872A8D720F00985D63 /* Day_60_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_60_ChallengeApp.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 				B1F356872A8D720F00985D63 /* Day_60_ChallengeApp.swift */,
 				B1F356892A8D720F00985D63 /* ContentView.swift */,
 				B13D7EB12A9591DD003993AC /* User.swift */,
+				B13CD7212A995DBC000B9AD3 /* UserDetailView.swift */,
 				B1F3568B2A8D721000985D63 /* Assets.xcassets */,
 				B1F3568D2A8D721000985D63 /* Preview Content */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B13CD7222A995DBC000B9AD3 /* UserDetailView.swift in Sources */,
 				B1F3568A2A8D720F00985D63 /* ContentView.swift in Sources */,
 				B1F356882A8D720F00985D63 /* Day_60_ChallengeApp.swift in Sources */,
 				B13D7EB22A9591DD003993AC /* User.swift in Sources */,

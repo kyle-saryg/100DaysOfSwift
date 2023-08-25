@@ -13,18 +13,39 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(users) { user in
-                HStack {
-                    Image(systemName: "circle.fill")
-                        .foregroundColor(user.isActive ? Color(.systemGreen): Color(.systemRed))
-                    Text(user.name)
-                    Text(user.registered)
+                NavigationLink(destination: UserDetailView(user: user)){
+                    HStack {
+                        Image(systemName: "circle.fill")
+                            .foregroundColor(user.isActive ? Color(.systemGreen): Color(.systemRed))
+                        Text(user.name)
+                        Spacer()
+                        Text(formatISO8601Date(iso8601Date:user.registered, outputFormat:"dd/MM/yyyy"))
+                    }
                 }
             }
             .onAppear(perform: fetchUserData)
         }
     }
     
+    func formatISO8601Date(iso8601Date: String, outputFormat: String) -> String {
+        let isoFormatter = ISO8601DateFormatter()
+        
+        if let date = isoFormatter.date(from: iso8601Date) {
+            let dateFormatter = DateFormatter()
+            dateFormatter.dateFormat = outputFormat
+            return dateFormatter.string(from: date)
+            
+        } else {
+            return "Invalid"
+        }
+    }
+    
     func fetchUserData() {
+        // User array is already populated, no need to download
+        if !users.isEmpty {
+            return
+        }
+        
         guard let url = URL(string: "https://www.hackingwithswift.com/samples/friendface.json") else {
             fatalError("Error retrieving URL")
         }

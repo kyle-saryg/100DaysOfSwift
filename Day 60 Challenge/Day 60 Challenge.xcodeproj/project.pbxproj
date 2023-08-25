@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		B13D7EB22A9591DD003993AC /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B13D7EB12A9591DD003993AC /* User.swift */; };
-		B14F323C2A95BC8B002B8CCD /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = B14F323B2A95BC8A002B8CCD /* Response.swift */; };
 		B1F356882A8D720F00985D63 /* Day_60_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F356872A8D720F00985D63 /* Day_60_ChallengeApp.swift */; };
 		B1F3568A2A8D720F00985D63 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1F356892A8D720F00985D63 /* ContentView.swift */; };
 		B1F3568C2A8D721000985D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1F3568B2A8D721000985D63 /* Assets.xcassets */; };
@@ -17,7 +16,6 @@
 
 /* Begin PBXFileReference section */
 		B13D7EB12A9591DD003993AC /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		B14F323B2A95BC8A002B8CCD /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		B1F356842A8D720F00985D63 /* Day 60 Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 60 Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1F356872A8D720F00985D63 /* Day_60_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_60_ChallengeApp.swift; sourceTree = "<group>"; };
 		B1F356892A8D720F00985D63 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,7 +56,6 @@
 				B1F356872A8D720F00985D63 /* Day_60_ChallengeApp.swift */,
 				B1F356892A8D720F00985D63 /* ContentView.swift */,
 				B13D7EB12A9591DD003993AC /* User.swift */,
-				B14F323B2A95BC8A002B8CCD /* Response.swift */,
 				B1F3568B2A8D721000985D63 /* Assets.xcassets */,
 				B1F3568D2A8D721000985D63 /* Preview Content */,
 			);
@@ -143,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B14F323C2A95BC8B002B8CCD /* Response.swift in Sources */,
 				B1F3568A2A8D720F00985D63 /* ContentView.swift in Sources */,
 				B1F356882A8D720F00985D63 /* Day_60_ChallengeApp.swift in Sources */,
 				B13D7EB22A9591DD003993AC /* User.swift in Sources */,

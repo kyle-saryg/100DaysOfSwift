@@ -12,9 +12,9 @@ struct UserDetailView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
-                List(user.friends) { friend in
-                    HStack {
+            List {
+                Section(header: Text("Friends")) {
+                    ForEach(user.friends) { friend in
                         Text(friend.name)
                     }
                 }

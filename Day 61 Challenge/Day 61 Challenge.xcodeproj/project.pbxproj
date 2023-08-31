@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B1964B782AA03181003A8518 /* Day 61 Challenge.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1964B762AA03181003A8518 /* Day 61 Challenge.xcdatamodeld */; };
 		B1D52EDD2A9A95E500AAB844 /* Day_61_ChallengeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D52EDC2A9A95E500AAB844 /* Day_61_ChallengeApp.swift */; };
 		B1D52EDF2A9A95E500AAB844 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D52EDE2A9A95E500AAB844 /* ContentView.swift */; };
 		B1D52EE12A9A95E600AAB844 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1D52EE02A9A95E600AAB844 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B1964B772AA03181003A8518 /* Day 61 Challenge.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Day 61 Challenge.xcdatamodel"; sourceTree = "<group>"; };
 		B1D52ED92A9A95E500AAB844 /* Day 61 Challenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Day 61 Challenge.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1D52EDC2A9A95E500AAB844 /* Day_61_ChallengeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day_61_ChallengeApp.swift; sourceTree = "<group>"; };
 		B1D52EDE2A9A95E500AAB844 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -58,6 +60,7 @@
 				B1D52EDC2A9A95E500AAB844 /* Day_61_ChallengeApp.swift */,
 				B1D52EDE2A9A95E500AAB844 /* ContentView.swift */,
 				B1D52EEC2A9A96C500AAB844 /* UserDetailView.swift */,
+				B1964B762AA03181003A8518 /* Day 61 Challenge.xcdatamodeld */,
 				B1D52EEA2A9A964500AAB844 /* User.swift */,
 				B1D52EE02A9A95E600AAB844 /* Assets.xcassets */,
 				B1D52EE22A9A95E600AAB844 /* Preview Content */,
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1964B782AA03181003A8518 /* Day 61 Challenge.xcdatamodeld in Sources */,
 				B1D52EED2A9A96C500AAB844 /* UserDetailView.swift in Sources */,
 				B1D52EDF2A9A95E500AAB844 /* ContentView.swift in Sources */,
 				B1D52EDD2A9A95E500AAB844 /* Day_61_ChallengeApp.swift in Sources */,
@@ -345,6 +349,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1964B762AA03181003A8518 /* Day 61 Challenge.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1964B772AA03181003A8518 /* Day 61 Challenge.xcdatamodel */,
+			);
+			currentVersion = B1964B772AA03181003A8518 /* Day 61 Challenge.xcdatamodel */;
+			path = "Day 61 Challenge.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = B1D52ED12A9A95E500AAB844 /* Project object */;
 }
